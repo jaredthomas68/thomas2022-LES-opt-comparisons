@@ -5,7 +5,7 @@ https://doi.org/10.5194/wes-2022-4)" by Jared J. Thomas, Christopher J. Bay, And
 
 We undertook this work to determine if and how optimization algorithms may be exploiting inaccuracies in the simple models used for wind farm layout optimization. Comparing optimization results from a simple model to large-eddy simulations showed that even a simple model provides enough information for optimizers to find good layouts. However, varrying the number of wind directions in the optimization showed that the wind resource discretization can nagatively impact the optimization results.
 
-All the code in this repository is in [Julia](https://julialang.org) and is compatible with Julia Version 1.8.0
+Most of the code in this repository is in [Julia](https://julialang.org) and is compatible with Julia Version 1.8.0
 
 # Generating Images
 
