@@ -7,17 +7,23 @@ We undertook this work to determine if and how optimization algorithms may be ex
 
 All the code in this repository is in [Julia](https://julialang.org) and is compatible with Julia Version 1.8.0
 
-# Setting up your environment
-
 # Generating Images
-
-Navigate to the image generation directory
-
-`$ cd image-generation`
 
 Start a Julia REPL
 
 `$ julia`
+
+Activate the local environment
+
+```julia
+pkg> activate .
+```
+
+Navigate to the image generation directory
+
+```julia
+cd("image-generation/")
+```
 
 Include the image generation script and run the `make_images()` function.
 
@@ -26,3 +32,6 @@ include("image_generator")
 
 make_images()
 ```
+
+# Note
+The `Project.toml` and `Manifest.toml` provide all the necessary packages to generate the images. However, other packages may be required to run some of the various other scripts in this repository.
