@@ -6,8 +6,6 @@ using VectorizedRoutines.Matlab
 
 
 # load flowfarm inputs etc 
-# include("../inputfiles/model-sets/bastankhah2014-single-turb-wind-tunnel-case.jl")
-# include("../inputfiles/model-sets/model_set_0_single_turbine.jl")
 include("../inputfiles/model-sets/round-farm-38-turbs-12-dirs-opt.jl")
 
 function vertical_slice(;nearwake=true)
